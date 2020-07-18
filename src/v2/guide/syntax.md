@@ -179,7 +179,7 @@ Ceci va être converti en v-bind:[someattr] dans un template dans le DOM. -->
 
 ### Modificateurs
 
-Les modificateurs sont des suffixes spéciaux indiqués par un point, qui indique qu'une directive devrait être liée d'une manière spécifique. Par exemple, le modificateur `.prevent` dit à la directive `v-on` d'appeler `event.preventDefault()` lorsque l'évènement survient.
+Les modificateurs sont des suffixes spéciaux indiqués par un point, qui indiquent qu'une directive devrait être liée d'une manière spécifique. Par exemple, le modificateur `.prevent` dit à la directive `v-on` d'appeler `event.preventDefault()` lorsque l'évènement survient.
 
 ``` html
 <form v-on:submit.prevent="onSubmit"> ... </form>
